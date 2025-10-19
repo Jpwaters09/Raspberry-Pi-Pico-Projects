@@ -23,4 +23,4 @@ try:
         sleep(delay)
 
 except KeyboardInterrupt:
-    pass
+    led.off()

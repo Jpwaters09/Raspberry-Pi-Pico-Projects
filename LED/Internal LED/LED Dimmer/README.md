@@ -6,7 +6,7 @@ Schematic - See below the schematic for instructions:
 What You Will Need:
 - 1 x Raspberry Pi Pico
 - 1 x Breadboard
-- 2 x Jumper Wires
+- 3 x Jumper Wires
 - 1 x Potentiometer
 
 Setting Up The Circuit:

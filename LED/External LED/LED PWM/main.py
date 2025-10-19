@@ -29,4 +29,4 @@ try:
             sleep(0.005)
             
 except KeyboardInterrupt:
-    pass
+    led.duty_u16(0)

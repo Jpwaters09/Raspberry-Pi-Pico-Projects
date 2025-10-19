@@ -1,5 +1,5 @@
 ################################################
-## External LED Button                        ##
+## LDR                                        ##
 ## Language: Python                           ##
 ## Author: Jacob Waters                       ##
 ## Github: github.com/jpwaters09              ##
@@ -7,17 +7,18 @@
 ## Contact me: jpwaters09.business@gmail.com  ##
 ################################################
 
-from machine import Pin
+from machine import Pin, ADC
 from time import sleep
 
-button = Pin(0, Pin.IN, Pin.PULL_UP)
-led = Pin(1, Pin.OUT)
+ldr = ADC(Pin(26))
 
 try:
     while True:
-        if not button.value():
-            led.toggle()
-            sleep(0.5)
+        ldr_value = ldr.read_u16()
+        
+        print(f"LDR Value: {ldr_value}")
+        
+        sleep(0.5)
         
 except KeyboardInterrupt:
-    led.off()
+    pass

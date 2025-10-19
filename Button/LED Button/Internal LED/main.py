@@ -20,4 +20,4 @@ try:
             sleep(0.5)
         
 except KeyboardInterrupt:
-    pass
+    led.off()

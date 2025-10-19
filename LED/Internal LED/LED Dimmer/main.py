@@ -20,4 +20,4 @@ try:
         led.duty_u16(pot_value)
             
 except KeyboardInterrupt:
-    pass
+    led.duty_u16(0)
