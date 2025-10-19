@@ -10,11 +10,11 @@
 from machine import Pin, PWM
 from time import sleep
 
-led = PWM(Pin(0))
-
 # Change the number below to change the speed #
 duty_step = 250                               #
 ###############################################
+
+led = PWM(Pin(0))
 
 led.freq(5000)
 
