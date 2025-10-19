@@ -16,7 +16,7 @@ try:
     while True:
         ldr_value = ldr.read_u16()
         
-        print(f"LDR Value: {ldr_value}")
+        print(f"LDR Value: {ldr_value}\n")
         
         sleep(0.5)
         

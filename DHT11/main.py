@@ -21,7 +21,7 @@ try:
             humidity = sensor.humidity()
             
             print(f"Temperature: {temp}C")
-            print(f"Humidity: {humidity}%")
+            print(f"Humidity: {humidity}%\n")
             
             sleep(1)
         

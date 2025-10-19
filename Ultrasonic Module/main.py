@@ -31,7 +31,7 @@ try:
         timePassed = signalOn - signalOff
         distance = round(((timePassed * 0.0343) / 2), 2)
         
-        print(f"Distance: {distance}cm")
+        print(f"Distance: {distance}cm\n")
         
         sleep(1)
         
