@@ -12,7 +12,7 @@ What You Will Need:
 
 Setting Up The Circuit:
 1. Make the circuit: \
-   LED GND(-) => 220Ω Resistor => GND On Raspberry Pi Pico \
+   LED GND(-) => 220Ω Resistor => GND(-) On Raspberry Pi Pico \
    LED VCC(+) => GPIO 0 On Raspberry Pi Pico
 2. Open Thonny on your Raspberry Pi.
 3. Create a file named main.py.
