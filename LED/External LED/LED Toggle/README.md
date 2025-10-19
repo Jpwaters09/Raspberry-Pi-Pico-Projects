@@ -1,4 +1,4 @@
-# LED Toggle:
+# External LED Toggle:
 Schematic - See below the schematic for instructions:
  
 ![](Schematic.png)
